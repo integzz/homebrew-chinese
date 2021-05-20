@@ -83,18 +83,20 @@ brew help
 
 ## 总结 ⭐️
 
-|     App 名      | Cask 名        | 是否原创?                                                                        |
-| :-------------: | -------------- | -------------------------------------------------------------------------------- |
-| Copy Translator | copytranslator | √ 已迁移至[Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)             |
-| HoststoolforMac | hoststool      | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)            |
-|     MagnetW     | magnetw        | √                                                                                |
-|     Multrin     | multrin        | √                                                                                |
-|     坚果云      | nutstore-auto  | √                                                                                |
-|    爱思助手     | i4tools        | √                                                                                |
-|    西语助手     | eudic-es       | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)            |
-|    SageMath     | sagemath-cn    | √                                                                                |
-|   WPS Office    | wpsoffice-cn   | √                                                                                |
-|  每日英语听力   | ting-en        | √                                                                                |
-|  每日法语听力   | ting-fr        | √                                                                                |
-|  每日西语听力   | ting-es        | √                                                                                |
-|      Julia      | julia-linux    | 修改自 [homebrew-linuxbinary](https://github.com/athrunsun/homebrew-linuxbinary) |
+|     App 名      | Cask 名          | 是否原创?                                                                        |
+| :-------------: | ---------------- | -------------------------------------------------------------------------------- |
+| Copy Translator | copytranslator   | √ 已迁移至[Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)             |
+| HoststoolforMac | hoststool        | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)            |
+|     MagnetW     | magnetw          | √                                                                                |
+|     Multrin     | multrin          | √                                                                                |
+|     坚果云      | nutstore-auto    | √                                                                                |
+|    爱思助手     | i4tools          | √                                                                                |
+|    西语助手     | eudic-es         | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)            |
+|    SageMath     | sagemath-cn      | √                                                                                |
+|   WPS Office    | wpsoffice-cn     | √                                                                                |
+|      Wine       | wine-latest      | √                                                                                |
+|     XQuartz     | xquartz-for-wine | √                                                                                |
+|  每日英语听力   | ting-en          | √                                                                                |
+|  每日法语听力   | ting-fr          | √                                                                                |
+|  每日西语听力   | ting-es          | √                                                                                |
+|      Julia      | julia-linux      | 修改自 [homebrew-linuxbinary](https://github.com/athrunsun/homebrew-linuxbinary) |
