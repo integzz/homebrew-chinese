@@ -5,7 +5,7 @@ cask "rustdesk" do
   url "https://github.com/rustdesk/rustdesk/releases/download/#{version}/rustdesk-#{version}.dmg"
   appcast "https://github.com/rustdesk/rustdesk/releases.atom"
   name "RustDesk"
-  desc "Your Remote Desktop Software"
+  desc "The Best Open Source Remote Desktop Client Software"
   homepage "https://rustdesk.com/"
 
   depends_on macos: ">= :sierra"
