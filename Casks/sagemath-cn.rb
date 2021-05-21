@@ -1,14 +1,29 @@
-cask "magnetw" do
-  version "3.1.1"
-  sha256 "38a1fdcb040e8269c266734a6d2274df487030c8ec80b4903493e55caae019ab"
+cask "sagemath-cn" do
+  if MacOS.version <= :mojave
+    version "9.1,10.11.6"
+    sha256 "23c13690b8a72deca1628dd0e66a0f7b83557f98c13c3db1dc7eb15d80cf3a8d"
+  else
+    version "9.2,10.15.7"
+    sha256 "fa6eb93368d4f7c220cbdd7a1483c1ef9d9b718b0f179c17c2acf14fb74f10c1"
+  end
 
-  url "https://github.com/xiandanin/magnetW/releases/download/#{version}/magnetw-#{version}-mac.dmg"
-  appcast "https://github.com/xiandanin/magnetW/releases.atom"
-  name "magnetW"
-  desc "Magnet-Link Search Engine"
-  homepage "https://github.com/xiandanin/magnetW/"
+  url "https://mirror.nju.edu.cn/sagemath/osx/intel/sage-#{version.before_comma}-OSX_#{version.after_comma}-x86_64.app.dmg",
+      verified: "https://mirror.nju.edu.cn/sagemath/osx/intel/"
+  appcast "https://mirror.nju.edu.cn/sagemath/osx/intel/index.html"
+  name "Sage"
+  homepage "https://www.sagemath.org/"
 
-  depends_on macos: ">= :sierra"
+  depends_on macos: ">= :el_capitan"
 
-  app "magnetW.app"
+  app "SageMath-#{version.before_comma}.app"
+  binary "#{appdir}/SageMath-#{version.before_comma}.app/Contents/Resources/sage/sage"
+
+  uninstall quit: "org.sagemath.Sage"
+
+  zap trash: [
+    "~/.sage",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.sagemath.sage.sfl*",
+    "~/Library/Logs/sage.log",
+    "~/Library/Preferences/org.sagemath.Sage.plist",
+  ]
 end
