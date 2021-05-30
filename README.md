@@ -83,23 +83,31 @@ brew help
 
 ## 总结 ⭐️
 
-|         App 名         | Cask 名          | 是否原创?                                                               |
-| :--------------------: | ---------------- | ----------------------------------------------------------------------- |
-|    Copy Translator     | copytranslator   | √ 已迁移至[Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)    |
-|    HoststoolforMac     | hoststool        | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)   |
-|        MagnetW         | magnetw          | √                                                                       |
-|        Multrin         | multrin          | √                                                                       |
-|        RustDesk        | rustdesk         | √                                                                       |
-|        SageMath        | sagemath-cn      | √                                                                       |
-|          Wine          | wine-latest      | √                                                                       |
-|       WPS Office       | wpsoffice-cn     | √                                                                       |
-|        XQuartz         | xquartz-for-wine | √                                                                       |
-| YouTube Downloader GUI | youtube-dl-gui   | √                                                                       |
-|         坚果云         | nutstore-auto    | √                                                                       |
-|      每日法语听力      | ting-fr          | √                                                                       |
-|      每日英语听力      | ting-en          | √                                                                       |
-|      每日西语听力      | ting-es          | √                                                                       |
-|        爱思助手        | i4tools          | √                                                                       |
-|        西语助手        | eudic-es         | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)   |
-|         Julia          | julia-linux      | 修改自 [linuxbinary](https://github.com/athrunsun/homebrew-linuxbinary) |
-|          Dust          | dust-linux       | 修改自 [linux-dust](https://github.com/TGotwig/homebrew-linux-dust)     |
+### Casks
+
+|         App 名         | Cask 名          | 是否原创?                                                             |
+| :--------------------: | ---------------- | --------------------------------------------------------------------- |
+|    Copy Translator     | copytranslator   | √ 已迁移至[Homebrew-Cask](https://github.com/Homebrew/homebrew-cask)  |
+|    HoststoolforMac     | hoststool        | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask) |
+|        MagnetW         | magnetw          | √                                                                     |
+|        Multrin         | multrin          | √                                                                     |
+|        RustDesk        | rustdesk         | √                                                                     |
+|        SageMath        | sagemath-cn      | √                                                                     |
+|          Wine          | wine-latest      | √                                                                     |
+|       WPS Office       | wpsoffice-cn     | √                                                                     |
+|        XQuartz         | xquartz-for-wine | √                                                                     |
+| YouTube Downloader GUI | youtube-dl-gui   | √                                                                     |
+|         坚果云         | nutstore-auto    | √                                                                     |
+|      每日法语听力      | ting-fr          | √                                                                     |
+|      每日英语听力      | ting-en          | √                                                                     |
+|      每日西语听力      | ting-es          | √                                                                     |
+|        爱思助手        | i4tools          | √                                                                     |
+|        西语助手        | eudic-es         | √ 已迁移至 [Homebrew-Cask](https://github.com/Homebrew/homebrew-cask) |
+
+### Formulae
+
+| App 名 | Cask 名     | 是否原创?                                                               |
+| :----: | ----------- | ----------------------------------------------------------------------- |
+| Bottom | bottom      |                                                                         | 修改自 [bottom](https://github.com/ClementTsang/homebrew-bottom/) |
+|  Dust  | dust-linux  | 修改自 [linux-dust](https://github.com/TGotwig/homebrew-linux-dust)     |
+| Julia  | julia-linux | 修改自 [linuxbinary](https://github.com/athrunsun/homebrew-linuxbinary) |
