@@ -109,5 +109,6 @@ brew help
 | App 名 | Cask 名     | 是否原创?                                                               |
 | :----: | ----------- | ----------------------------------------------------------------------- |
 | Bottom | bottom      |                                                                         | 修改自 [bottom](https://github.com/ClementTsang/homebrew-bottom/) |
+|  Tldr  | tldr-go     | 修改自 [tldr](https://github.com/isacikgoz/homebrew-taps)               |
 |  Dust  | dust-linux  | 修改自 [linux-dust](https://github.com/TGotwig/homebrew-linux-dust)     |
 | Julia  | julia-linux | 修改自 [linuxbinary](https://github.com/athrunsun/homebrew-linuxbinary) |
