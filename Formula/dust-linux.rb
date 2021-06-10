@@ -1,4 +1,4 @@
-class Dust < Formula
+class DustLinux < Formula
   desc " More intuitive version of du in rust "
   homepage "https://github.com/bootandy/dust"
   url "https://github.com/bootandy/dust/releases/download/v0.5.3/dust-v0.5.3-i686-unknown-linux-gnu.tar.gz"
