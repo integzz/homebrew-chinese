@@ -17,12 +17,12 @@ cask "clashxr" do
 
   app "ClashXR.app"
 
-  uninstall delete:    [
-    "/Library/PrivilegedHelperTools/com.west2online.ClashX.ProxyConfigHelper",
-    "/Library/LaunchDaemons/com.west2online.ClashXR.ProxyConfigHelper.plist",
-  ],
+  uninstall delete: [
+              "/Library/PrivilegedHelperTools/com.west2online.ClashX.ProxyConfigHelper",
+              "/Library/LaunchDaemons/com.west2online.ClashXR.ProxyConfigHelper.plist",
+            ],
             launchctl: "com.west2online.ClashXR.ProxyConfigHelper",
-            quit:      "com.west2online.ClashXR"
+            quit: "com.west2online.ClashXR"
 
   zap trash: [
     "~/Library/Application Support/com.west2online.ClashXR",
