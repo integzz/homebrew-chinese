@@ -1,25 +1,34 @@
-<div align="left">
-<h1 align="left"> Homebrew-Chinese </h1>
-<p>
-<a>
-<img src="https://img.shields.io/github/languages/code-size/integzz/homebrew-chinese.svg">
-</a>
-<a>
-<img src="https://img.shields.io/github/repo-size/integzz/homebrew-chinese.svg">
-</a>
+<body>
+  <div align="left">
+    <h1 align="left">Homebrew-Chinese</h1>
+    <p>
+      <a>
+        <img
+          src="https://img.shields.io/github/languages/code-size/integzz/homebrew-chinese.svg"
+        />
+      </a>
+      <a>
+        <img
+          src="https://img.shields.io/github/repo-size/integzz/homebrew-chinese.svg"
+        />
+      </a>
+      <a>
+        <img
+          src="https://img.shields.io/github/license/integzz/homebrew-chinese"
+        />
+      </a>
+    </p>
+  </div>
 
-<a>
-<img src="https://img.shields.io/github/license/integzz/homebrew-chinese">
-</a>
-</p>
-</div>
+  <p></p>
 
-<p></p>
-
-<div>
-<p> 一个致力于服务国人的 <a href="https://github.com/Homebrew/brew"> Homebrew </a> 🍺 第三方库
-</p>
-</div>
+  <div>
+    <p>
+      一个致力于服务国人的
+      <a href="https://github.com/Homebrew/brew"> Homebrew </a> 🍺 第三方库
+    </p>
+  </div>
+</body>
 
 本仓库主要收录以下软件：
 
@@ -106,9 +115,9 @@ brew help
 
 ### Formulae
 
-| App 名 | Cask 名     | 是否原创?                                                               |
-| :----: | ----------- | ----------------------------------------------------------------------- |
-| Bottom | bottom      |                                                                         | 修改自 [bottom](https://github.com/ClementTsang/homebrew-bottom/) |
-|  Tldr  | tldr-go     | 修改自 [tldr](https://github.com/isacikgoz/homebrew-taps)               |
-|  Dust  | dust-linux  | 修改自 [linux-dust](https://github.com/TGotwig/homebrew-linux-dust)     |
-| Julia  | julia-linux | 修改自 [linuxbinary](https://github.com/athrunsun/homebrew-linuxbinary) |
+|     App 名     | Cask 名          | 是否原创?                                                           |
+| :------------: | ---------------- | ------------------------------------------------------------------- |
+|     Bottom     | bottom           |                                                                     | 修改自 [bottom](https://github.com/ClementTsang/homebrew-bottom/) |
+|      Dust      | dust-linux       | 修改自 [linux-dust](https://github.com/TGotwig/homebrew-linux-dust) |
+| 网易云音乐 TUI | neteasemusic-tui | √                                                                   |
+|      Tldr      | tldr-go          | 修改自 [tldr](https://github.com/isacikgoz/homebrew-taps)           |
