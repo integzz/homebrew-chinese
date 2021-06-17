@@ -15,17 +15,8 @@ class Bottom < Formula
       zsh_completion.install "completion/_btm"
       fish_completion.install "completion/btm.fish"
       bin.install "btm"
-      ohai "You're done!  Run with \"btm\""
+      ohai "You're done! Run with \"btm\""
       ohai "For runtime flags, see \"btm --help\""
       ohai "If you want to configure bottom, by default bottom looks for a file in $HOME/Library/Application Support/bottom.toml or $HOME/.config/bottom/bottom.toml"
     end
-
-    def caveats
-      <<~EOS
-        Note that bottom might require elevated privileges to correctly display information for all processes. You
-        probably won't need it though, there are built-in methods to avoid this need.
-        If you find you really do need it, you can do this with `sudo btm`.
-        You should be certain that you trust any software you grant root privileges.
-      EOS
-    end 
-  end
+end
