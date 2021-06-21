@@ -92,22 +92,22 @@ brew help
 
 ## 总结 ⭐️
 
-<style>
-  table {
-    border-collapse: collapse;
-  }
-  tr {
-    text-align: center;
-  }
-  td {
-    text-align: center;
-  }
-  summary {
-    font-size: large;
-  }
-</style>
-
 <details open="false">
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    tr {
+      text-align: center;
+    }
+    td {
+      text-align: center;
+    }
+    summary {
+      font-size: large;
+    }
+  </style>
+
   <summary>Casks</summary>
   <br />
   <table id="casks" border="1">
