@@ -1,19 +1,4 @@
 <div>
-  <style>
-    table {
-      border-collapse: collapse;
-    }
-    tr {
-      text-align: center;
-    }
-    td {
-      text-align: center;
-    }
-    summary {
-      font-size: large;
-    }
-  </style>
-
   <div align="left">
     <h1 align="left">Homebrew-Chinese</h1>
     <p>
@@ -44,6 +29,7 @@
     </p>
   </div>
 </div>
+
 
 本仓库主要收录以下软件：
 
@@ -241,4 +227,22 @@ brew help
       </td>
     </tr>
   </table>
+</details>
+
+<details>
+  <summary>style</summary>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    tr {
+      text-align: center;
+    }
+    td {
+      text-align: center;
+    }
+    summary {
+      font-size: large;
+    }
+  </style>
 </details>
