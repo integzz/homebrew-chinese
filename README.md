@@ -1,4 +1,19 @@
-<body>
+<div>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    tr {
+      text-align: center;
+    }
+    td {
+      text-align: center;
+    }
+    summary {
+      font-size: large;
+    }
+  </style>
+
   <div align="left">
     <h1 align="left">Homebrew-Chinese</h1>
     <p>
@@ -28,7 +43,8 @@
       <a href="https://github.com/Homebrew/brew"> Homebrew </a> 🍺 第三方库
     </p>
   </div>
-</body>
+</div>
+
 
 本仓库主要收录以下软件：
 
@@ -93,21 +109,6 @@ brew help
 ## 总结 ⭐️
 
 <details open="false">
-  <style>
-    table {
-      border-collapse: collapse;
-    }
-    tr {
-      text-align: center;
-    }
-    td {
-      text-align: center;
-    }
-    summary {
-      font-size: large;
-    }
-  </style>
-
   <summary>Casks</summary>
   <br />
   <table id="casks" border="1">
