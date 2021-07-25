@@ -67,7 +67,7 @@ brew update
 brew search <app_name>
 ```
 
-``` bash
+```bash
 brew install <app_name>
 ```
 
@@ -196,26 +196,22 @@ brew help
       <th>是否原创?</th>
     </tr>
     <tr>
-      <td>Bottom</td>
-      <td>bottom</td>
+      <td>musikcub</td>
+      <td>musikcub</td>
       <td>
-        <a src="https://github.com/ClementTsang/homebrew-bottom/"
-          >修改自 bottom</a
-        >
-      </td>
-    </tr>
-    <tr>
-      <td>Dust</td>
-      <td>dust-linux</td>
-      <td>
-        <a src="https://github.com/TGotwig/homebrew-linux-dust"
-          >修改自 linux-dust</a
+        <a src="https://github.com/clangen/homebrew-musikcube"
+          >修改自 musikcube</a
         >
       </td>
     </tr>
     <tr>
       <td>网易云音乐 TUI</td>
       <td>neteasemusic-tui</td>
+      <td>√</td>
+    </tr>
+    <tr>
+      <td>Termusic</td>
+      <td>termusic</td>
       <td>√</td>
     </tr>
     <tr>
