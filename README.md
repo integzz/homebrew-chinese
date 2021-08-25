@@ -125,11 +125,6 @@ brew help
       <td>√</td>
     </tr>
     <tr>
-      <td>Multrin</td>
-      <td>multrin</td>
-      <td>√</td>
-    </tr>
-    <tr>
       <td>RustDesk</td>
       <td>rustdesk</td>
       <td>√</td>
