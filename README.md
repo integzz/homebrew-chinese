@@ -125,11 +125,6 @@ brew help
       <td>√</td>
     </tr>
     <tr>
-      <td>RustDesk</td>
-      <td>rustdesk</td>
-      <td>√</td>
-    </tr>
-    <tr>
       <td>SageMath</td>
       <td>sagemath-cn</td>
       <td>√</td>
@@ -224,6 +219,9 @@ brew help
   <style>
     table {
       border-collapse: collapse;
+    }
+    th {
+      text-align: center;
     }
     tr {
       text-align: center;
