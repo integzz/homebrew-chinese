@@ -1,4 +1,4 @@
-cask "miniconda" do
+cask "miniconda-cn" do
   version "3.9.1"
   sha256 "93e514e01142866629175f5a9e2e1d0bac8bc705f61d1ed1da3c010b7225683a"
 
