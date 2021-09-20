@@ -1,6 +1,6 @@
 cask "miniconda-cn" do
   version "3.9.1"
-  sha256 "93e514e01142866629175f5a9e2e1d0bac8bc705f61d1ed1da3c010b7225683a"
+  sha256 "ea529626cfb3519eebee83c40965f0a58375e0826c6777b759eb0c42ca9970d2"
 
   url "https://mirrors.tuna.tsinghua.edu.cn/anaconda/miniconda/Miniconda-#{version}-MacOSX-x86_64.sh",
       verified: "repo.anaconda.com/miniconda/"
