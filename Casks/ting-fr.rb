@@ -1,5 +1,5 @@
 cask "ting-fr" do
-  version "9.2.0"
+  version "9.3.9"
   sha256 "3b0b47870ab4650e4efd3ca83fa21bd10eb7917caff3c6040eac70b3847db26a"
 
   url "https://static.frdic.com/pkg/ting_fr/ting_fr.dmg",
